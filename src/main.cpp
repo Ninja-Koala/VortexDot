@@ -387,7 +387,7 @@ void setup() {
   //******************************************//
   //---------------FastLED--Block-------------//
   //******************************************//
-  FastLED.addLeds<APA102, DATA_PIN, CLOCK_PIN, BGR>(leds, numLEDS);
+  FastLED.addLeds<WS2801, DATA_PIN, CLOCK_PIN, RGB>(leds, numLEDS);
   FastLED.clear();
   FastLED.show();
 
